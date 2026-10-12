@@ -1,0 +1,41 @@
+{
+  "dataset": "Hillstrom MineThatData Email Analytics Challenge",
+  "local_file": "data/raw/hillstrom_mirror.csv.gz",
+  "download_url": "https://hillstorm1.s3.us-east-2.amazonaws.com/hillstorm_no_indices.csv.gz",
+  "original_description_url": "https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html",
+  "mirror_loader_url": "https://github.com/maks-sh/scikit-uplift/blob/master/sklift/datasets/datasets.py",
+  "verified_at_utc": "2026-10-12T01:57:59.328505+00:00",
+  "file_size_bytes": 443070,
+  "md5": "a68a81291f53a14f4e29002629803ba3",
+  "expected_mirror_md5": "a68a81291f53a14f4e29002629803ba3",
+  "sha256": "bab6578f60db5d792f1c2372c502f029152a5249cf5ea84390f3b7f885d7234f",
+  "row_count": 64000,
+  "columns": [
+    "recency",
+    "history_segment",
+    "history",
+    "mens",
+    "womens",
+    "zip_code",
+    "newbie",
+    "channel",
+    "segment",
+    "visit",
+    "conversion",
+    "spend"
+  ],
+  "treatment_labels": [
+    "Mens E-Mail",
+    "No E-Mail",
+    "Womens E-Mail"
+  ],
+  "source_notes": [
+    "The original HTTPS download failed certificate verification.",
+    "The file was obtained from the scikit-uplift dataset mirror.",
+    "The compressed file matches the loader's expected MD5.",
+    "Exact equivalence to the original publisher CSV was not verified.",
+    "No transformations have been applied to the downloaded file.",
+    "Dataset redistribution terms have not been established.",
+    "Raw data are excluded from Git."
+  ]
+}
