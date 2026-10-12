@@ -1,0 +1,23 @@
+# Local data and model artifacts
+/data/
+/artifacts/
+
+# Notebook checkpoints and Python caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+.conda/
+
+# Credentials and local configuration
+.env
+.env.*
+credentials.json
+*service-account*.json
+*.pem
+
+# macOS files
+.DS_Store
